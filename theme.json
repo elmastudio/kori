@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
 	"version": 2,
 	"settings": {
 		"appearanceTools": true,
@@ -9,10 +10,8 @@
 			"width": true
 		},
 		"spacing": {
-			"margin": true,
-			"padding": true,
-			"units": ["px", "rem", "vh", "vw"],
-			"blockGap": 0
+			"blockGap": true,
+			"units": ["px", "em", "rem", "%", "vh", "vw"]
 		},
 		"color": {
 			"defaultPalette": false,
@@ -36,6 +35,11 @@
 					"name": "Background 3"
 				},
 				{
+					"slug": "background-quaternary",
+					"color": "#b4b4b4",
+					"name": "Background 4"
+				},
+				{
 					"slug": "font-primary",
 					"color": "#211736",
 					"name": "Text 1"
@@ -51,24 +55,14 @@
 					"name": "Text 3"
 				},
 				{
-					"slug": "primary",
-					"color": "#ffffff",
-					"name": "Button Background"
-				},
-				{
-					"slug": "secondary",
-					"color": "#DECFFC",
-					"name": "Button Background Hover"
-				},
-				{
-					"slug": "button-color-primary",
+					"slug": "border-primary",
 					"color": "#170F26",
-					"name": "Button Text"
+					"name": "Neutral 1"
 				},
 				{
-					"slug": "button-color-secondary",
-					"color": "#170F26",
-					"name": "Button Text Hover"
+					"slug": "border-secondary",
+					"color": "#ffffff60",
+					"name": "Neutral 2"
 				},
 				{
 					"slug": "tertiary",
@@ -86,14 +80,29 @@
 					"name": "Accent 3"
 				},
 				{
-					"slug": "border-primary",
-					"color": "#170F26",
-					"name": "Neutral 1"
+					"slug": "senary",
+					"color": "#a9f6a7",
+					"name": "Accent 4"
 				},
 				{
-					"slug": "border-secondary",
-					"color": "#ffffff60",
-					"name": "Neutral 2"
+					"slug": "primary",
+					"color": "#ffffff",
+					"name": "Button 1"
+				},
+				{
+					"slug": "secondary",
+					"color": "#DECFFC",
+					"name": "Button 2"
+				},
+				{
+					"slug": "button-color-primary",
+					"color": "#170F26",
+					"name": "Button 3"
+				},
+				{
+					"slug": "button-color-secondary",
+					"color": "#170F26",
+					"name": "Button 4"
 				},
 				{
 					"slug": "variant-background-primary",
@@ -111,6 +120,11 @@
 					"name": "Variant Background 3"
 				},
 				{
+					"slug": "variant-background-quaternary",
+					"color": "#7a7a7a",
+					"name": "Variant Background 4"
+				},
+				{
 					"slug": "variant-font-primary",
 					"color": "#f7f7f7",
 					"name": "Variant Text 1"
@@ -126,24 +140,14 @@
 					"name": "Variant Text 3"
 				},
 				{
-					"slug": "variant-primary",
-					"color": "#ffffff",
-					"name": "Variant Button Background"
+					"slug": "variant-border-primary",
+					"color": "#14082B60",
+					"name": "Variant Neutral 1"
 				},
 				{
-					"slug": "variant-secondary",
-					"color": "#DECFFC",
-					"name": "Variant Button Background Hover"
-				},
-				{
-					"slug": "variant-button-color-primary",
-					"color": "#000000",
-					"name": "Variant Button Text"
-				},
-				{
-					"slug": "variant-button-color-secondary",
-					"color": "#000000",
-					"name": "Variant Button Text Hover"
+					"slug": "variant-border-secondary",
+					"color": "#ffffff20",
+					"name": "Variant Neutral 2"
 				},
 				{
 					"slug": "variant-tertiary",
@@ -161,14 +165,29 @@
 					"name": "Variant Accent 3"
 				},
 				{
-					"slug": "variant-border-primary",
-					"color": "#14082B60",
-					"name": "Variant Neutral 1"
+					"slug": "variant-senary",
+					"color": "#77f174",
+					"name": "Variant Accent 4"
 				},
 				{
-					"slug": "variant-border-secondary",
-					"color": "#ffffff20",
-					"name": "Variant Neutral 2"
+					"slug": "variant-primary",
+					"color": "#ffffff",
+					"name": "Variant Button 1"
+				},
+				{
+					"slug": "variant-secondary",
+					"color": "#DECFFC",
+					"name": "Variant Button 2"
+				},
+				{
+					"slug": "variant-button-color-primary",
+					"color": "#000000",
+					"name": "Variant Button 3"
+				},
+				{
+					"slug": "variant-button-color-secondary",
+					"color": "#000000",
+					"name": "Variant Button 4"
 				}
 			],
 			"gradients": [
@@ -352,7 +371,7 @@
 	},
 	"styles": {
 		"spacing": {
-			"blockGap": null
+			"blockGap": "0.0rem"
 		},
 		"color": {
 			"background": "var(--wp--custom--color--main-background)",

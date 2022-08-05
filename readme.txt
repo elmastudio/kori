@@ -4,7 +4,7 @@ Tags:
 Requires at least: 5.9
 Tested up to: WordPress 6.0
 Requires PHP: 7.0
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -39,35 +39,40 @@ Kori WordPress Theme bundles the following third-party resources:
 * Screenshot image #1, (c) Elmastudio Ltd., CC0 1.0 Universal (CC0 1.0) license
 * TGM-Plugin-Activation, (c) Thomas Griffin, License: GPLv2 or later, http://tgmpluginactivation.com
 
-Fraunces Font
+Fraunces (font)
 Copyright 2018 The Fraunces Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: (https://github.com/undercasetype/Fraunces)
 
-Urbanist Font
+Urbanist (font)
 Copyright 2021 The Urbanist Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/coreyhu/Urbanist
 
 == Changelog ==
 
-= 1.1.1=
+= 1.1.2 =
+Release date: August 5, 2022
 
+* Enhance: Color palette and color streamline color names across all themes.
+* Enhance: blockGap in theme.json.
+* Enhance: Delete Makoney and Aino theme patterns as preparation for Pattie Starter Patterns release.
+* Bugfix: Patterns.
+
+= 1.1.1 =
 Release date: June 12th, 2022
 
 * Enhance: Color names.
 * Bugfix: Default paragraph and list block font sizes.
 * Bugfix: Single templates Category font sizes.
 
-= 1.1.0=
-
+= 1.1.0 =
 Release date: May 12th, 2022
 
 * New: Frontpage template
 * Bugfix: Clean up theme.json file
 
-= 1.0.0=
-
+= 1.0.0 =
 Release date: April 26th, 2022
 
 * New: Initial Release
