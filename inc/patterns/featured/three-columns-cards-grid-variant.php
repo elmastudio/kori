@@ -8,13 +8,13 @@ return array(
 	'categories' => array( 'features' ),
 	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"variant-background-secondary","layout":{"inherit":false},"paddingTop":0,"paddingBottom":16} -->
 	<div class="wp-block-group alignfull has-variant-background-secondary-background-color has-background pb__16" id="skills"><!-- wp:ainoblocks/grid-container {"columnGap":"col-gap-m","paddingTop":16} -->
-	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block col-gap-m pt__16" id="skills"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":4,"gridColumnEndTablet":10,"gridColumnStartMobile":2,"gridColumnEndMobile":12,"justifyItem":"stretch","paddingBottom":13} -->
-	<div class="wp-block-ainoblocks-grid-item col_start_d__4 col_end_d__10 col_start_t__4 col_end_t__10 col_start_m__2 col_end_m__12 as__start as__t__start js__stretch js__t__start no-stacking pb__13"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"variant-tertiary","className":"serif","fontSize":"text-4-xl"} -->
-	<h2 class="has-text-align-center serif has-variant-tertiary-color has-text-color has-text-4-xl-font-size" id="my-skills" style="font-style:normal;font-weight:400"><em>My Skills</em></h2>
+	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block col-gap-m pt__16" id="skills"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":3,"gridColumnEndTablet":11,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","className":"as__start as__t__start js__stretch js__t__start","paddingBottom":13} -->
+	<div class="wp-block-ainoblocks-grid-item col_start_d__4 col_end_d__10 col_start_t__3 col_end_t__11 col_start_m__1 col_end_m__13 justify-self__stretch no-stacking as__start as__t__start js__stretch js__t__start pb__13"><!-- wp:heading {"textAlign":"center","textColor":"variant-tertiary","className":"serif","fontSize":"text-4-xl"} -->
+	<h2 class="has-text-align-center serif has-variant-tertiary-color has-text-color has-text-4-xl-font-size"><em>My Skills</em></h2>
 	<!-- /wp:heading -->
 	
 	<!-- wp:heading {"textAlign":"center","textColor":"variant-font-primary","fontSize":"text-4-xl","paddingTop":3} -->
-	<h2 class="has-text-align-center has-variant-font-primary-color has-text-color has-text-4-xl-font-size pt__3" id="my-skills">and Toolset</h2>
+	<h2 class="has-text-align-center has-variant-font-primary-color has-text-color has-text-4-xl-font-size pt__3">and Toolset</h2>
 	<!-- /wp:heading -->
 	
 	<!-- wp:paragraph {"align":"center","textColor":"variant-font-secondary","fontSize":"text-l","paddingTop":7} -->

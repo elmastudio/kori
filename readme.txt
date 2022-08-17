@@ -4,7 +4,7 @@ Tags:
 Requires at least: 5.9
 Tested up to: WordPress 6.0
 Requires PHP: 7.0
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -50,6 +50,11 @@ License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/coreyhu/Urbanist
 
 == Changelog ==
+
+= 1.1.3 =
+Release date: August 17, 2022
+* Fix: Patterns.
+* Enhance: Header and Footer Template Parts.
 
 = 1.1.2 =
 Release date: August 5, 2022

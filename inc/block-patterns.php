@@ -3,7 +3,8 @@
 /**
  * Registers block patterns and categories.
  */
-function aino_register_block_patterns() {
+
+function kori_register_block_patterns() {
 
 		$block_pattern_categories = array(
 			'heroes'       => array( 'label' => __( 'Heroes' ) ),
@@ -20,26 +21,19 @@ function aino_register_block_patterns() {
 			'pages'        => array( 'label' => __( 'Pages' ) ),
 		);
 
-		$block_pattern_categories = apply_filters( 'aino_block_pattern_categories', $block_pattern_categories );
+		$block_pattern_categories = apply_filters( 'kori_block_pattern_categories', $block_pattern_categories );
 
 		foreach ( $block_pattern_categories as $name => $properties ) {
 			register_block_pattern_category( $name, $properties );
 		}	
 
 			$block_patterns = array(
-				'query/large-post-overlay',
 				'query/two-col-posts',
 				'query/three-col-posts',
 				'query/four-col-posts',
 				'query/five-col-posts',
 				'query/six-col-posts',
 				'query/three-col-posts-one-featured',
-				'blog/authors-four-col',
-				'blog/years-two-col',
-				'blog/tagcloud-wide',
-				'blog/categories-wide',
-				'blog/quote-bg-wide',
-				'blog/content-accordion',
 				'page/one-page-resume',
 				'page/one-page-resume-variant',
 				'header/header-floating-nav',
@@ -66,15 +60,16 @@ function aino_register_block_patterns() {
 				'testimonials/two-columns-grid-cards-variant',
 				'contact/card-text-button',
 				'contact/card-text-button-variant',
+				'hidden/404',
 			);
 
-		$block_patterns = apply_filters( 'aino_block_patterns', $block_patterns );
+		$block_patterns = apply_filters( 'kori_block_patterns', $block_patterns );
 
 	foreach ( $block_patterns as $block_pattern ) {
 		register_block_pattern(
-			'aino/' . $block_pattern,
+			'kori/' . $block_pattern,
 			require __DIR__ . '/patterns/' . $block_pattern . '.php'
 		);
 	}
 }
-add_action( 'init', 'aino_register_block_patterns', 9 );
+add_action( 'init', 'kori_register_block_patterns', 9 );
