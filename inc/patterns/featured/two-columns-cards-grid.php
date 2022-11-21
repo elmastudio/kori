@@ -7,8 +7,8 @@ return array(
 	'title'      => __( 'Two Columns Cards Grid, default' ),
 	'categories' => array( 'features' ),
 	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"background-secondary","layout":{"inherit":false},"paddingTop":0,"paddingBottom":16} -->
-	<div class="wp-block-group alignfull has-background-secondary-background-color has-background pb__16" id="skills"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m","paddingTop":16} -->
-	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block col-gap-m pt__16"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":4,"gridColumnEndTablet":10,"gridColumnStartMobile":2,"gridColumnEndMobile":12,"justifyItem":"stretch","className":"as__start as__t__start js__stretch js__t__start","paddingBottom":13} -->
+	<div class="wp-block-group alignfull has-background-secondary-background-color has-background pb__16" id="skills"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m","paddingTop":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block col-gap-m pt__16 pl__10 pr__10"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":4,"gridColumnEndTablet":10,"gridColumnStartMobile":2,"gridColumnEndMobile":12,"justifyItem":"stretch","className":"as__start as__t__start js__stretch js__t__start","paddingBottom":13} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__4 col_end_d__10 col_start_t__4 col_end_t__10 col_start_m__2 col_end_m__12 justify-self__stretch no-stacking as__start as__t__start js__stretch js__t__start pb__13"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"tertiary","className":"serif","fontSize":"text-4-xl"} -->
 	<h2 class="has-text-align-center serif has-tertiary-color has-text-color has-text-4-xl-font-size" id="my-skills" style="font-style:normal;font-weight:400"><em>My Skills</em></h2>
 	<!-- /wp:heading -->

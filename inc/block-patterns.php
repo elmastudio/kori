@@ -33,7 +33,6 @@ function kori_register_block_patterns() {
 				'query/four-col-posts',
 				'query/five-col-posts',
 				'query/six-col-posts',
-				'query/three-col-posts-one-featured',
 				'page/one-page-resume',
 				'page/one-page-resume-variant',
 				'header/header-floating-nav',

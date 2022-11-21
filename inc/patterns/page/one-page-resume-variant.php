@@ -8,12 +8,12 @@ return array(
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"variant-background-secondary"} -->
 	<div class="wp-block-group alignfull has-variant-background-secondary-background-color has-background"><!-- wp:cover {"url":"https://wpaino.s3.eu-central-1.amazonaws.com/bg-style-01-a.svg","id":20579,"isRepeated":true,"dimRatio":0,"isDark":false} -->
-	<div class="wp-block-cover is-light is-repeated" style="background-image:url(https://wpaino.s3.eu-central-1.amazonaws.com/bg-style-01-a.svg)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","layout":{"inherit":false},"paddingBottom":16} -->
-	<div class="wp-block-group alignfull pb__16"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":18} -->
+	<div class="wp-block-cover is-light is-repeated" style="background-image:url(https://wpaino.s3.eu-central-1.amazonaws.com/bg-style-01-a.svg)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","layout":{"inherit":false},"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull pb__16 pl__10 pr__10"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":18} -->
 <div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block pt__18"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":2,"gridColumnEndDesktop":5,"gridColumnStartTablet":1,"gridColumnEndTablet":5,"gridColumnStartMobile":3,"gridColumnEndMobile":11,"alignItem":"stretch","justifyItem":"stretch","className":"as__stretch as__t__start js__stretch js__t__start","paddingTop":0} -->
 <div class="wp-block-ainoblocks-grid-item col_start_d__2 col_end_d__5 col_start_t__1 col_end_t__5 col_start_m__3 col_end_m__11 align-self__stretch justify-self__stretch no-stacking as__stretch as__t__start js__stretch js__t__start"><!-- wp:ainoblocks/card {"borderColor":"background-primary","borderRadius":"rounded-full","paddingTop":0,"paddingBottom":0,"paddingLeft":0,"paddingRight":0,"borderTopWidth":8,"borderRightWidth":8,"borderBottomWidth":8,"borderLeftWidth":8} -->
-<div class="wp-block-ainoblocks-card shadow-none has-border-color has-background-primary-border-color br-all__rounded-full" style="border-top-width:8px;border-right-width:8px;border-bottom-width:8px;border-left-width:8px"><!-- wp:image {"id":20538,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px"}},"className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded" style="border-radius:100px"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/profile-pic.jpeg" alt="" class="wp-image-20538"/></figure>
+<div class="wp-block-ainoblocks-card shadow-none has-border-color has-background-primary-border-color br-all__rounded-full" style="border-top-width:8px;border-right-width:8px;border-bottom-width:8px;border-left-width:8px"><!-- wp:image {"id":20538,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100rem"}},"className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-style-rounded" style="border-radius:100rem"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/profile-pic.jpeg" alt="" class="wp-image-20538"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:ainoblocks/card --></div>
 <!-- /wp:ainoblocks/grid-item -->
@@ -27,7 +27,7 @@ return array(
 <h2 class="has-text-align-left test has-variant-font-primary-color has-text-color has-text-5-xl-font-size pt__3 pb__7">Front-end developer and blogger</h2>
 <!-- /wp:heading -->
 
-<!-- wp:social-links {"iconColor":"variant-button-color-primary","iconColorValue":"#000000","iconBackgroundColor":"variant-primary","iconBackgroundColorValue":"#ffffff","className":"is-style-large-raised variant","layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":{"left":"0.5rem"}}}} -->
+<!-- wp:social-links {"iconColor":"variant-button-color-primary","iconColorValue":"#000000","iconBackgroundColor":"variant-primary","iconBackgroundColorValue":"#ffffff","className":"is-style-large-raised variant","layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":{"left":"0.75rem"}}}} -->
 <ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-large-raised variant"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
 <!-- wp:social-link {"url":"#","service":"youtube"} /-->
@@ -41,8 +41,8 @@ return array(
 	</div>
 	<!-- /wp:group -->
 	
-	<!-- wp:group {"align":"full","className":"has-background-variant-secondary-background-color","layout":{"inherit":false},"paddingBottom":16} -->
-	<div class="wp-block-group alignfull has-background-variant-secondary-background-color pb__16" id="about"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
+	<!-- wp:group {"align":"full","className":"has-background-variant-secondary-background-color","layout":{"inherit":false},"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull has-background-variant-secondary-background-color pb__16 pl__10 pr__10" id="about"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block pt__16"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":2,"gridColumnEndDesktop":12,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__2 col_end_d__12 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 as__start as__t__start js__start js__t__start no-stacking"><!-- wp:ainoblocks/card {"borderColor":"variant-border-secondary","borderRadius":"m","paddingTop":11,"paddingBottom":11,"paddingLeft":11,"paddingRight":11,"borderTopWidth":1,"borderRightWidth":1,"borderBottomWidth":1,"borderLeftWidth":1,"gradient":"gradient-tertiary"} -->
 	<div class="wp-block-ainoblocks-card shadow-none pt__11 pb__11 pl__11 pr__11 has-border-color has-variant-border-secondary-border-color has-gradient-tertiary-gradient-background has-background br-all__m" style="border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-none"} -->
@@ -73,8 +73,8 @@ return array(
 	<!-- /wp:ainoblocks/grid-container --></div>
 	<!-- /wp:group -->
 	
-	<!-- wp:group {"align":"full","layout":{"inherit":false},"paddingTop":0,"paddingBottom":16} -->
-	<div class="wp-block-group alignfull pb__16" id="skills"><!-- wp:ainoblocks/grid-container {"columnGap":"col-gap-m","paddingTop":16} -->
+	<!-- wp:group {"align":"full","layout":{"inherit":false},"paddingTop":0,"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull pb__16 pl__10 pr__10" id="skills"><!-- wp:ainoblocks/grid-container {"columnGap":"col-gap-m","paddingTop":16} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block col-gap-m pt__16" id="skills"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":4,"gridColumnEndTablet":10,"gridColumnStartMobile":2,"gridColumnEndMobile":12,"justifyItem":"stretch","className":"as__start js__stretch","paddingBottom":13} -->
 <div class="wp-block-ainoblocks-grid-item col_start_d__4 col_end_d__10 col_start_t__4 col_end_t__10 col_start_m__2 col_end_m__12 justify-self__stretch no-stacking as__start js__stretch pb__13"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"variant-tertiary","className":"serif","fontSize":"text-4-xl"} -->
 <h2 class="has-text-align-center serif has-variant-tertiary-color has-text-color has-text-4-xl-font-size" style="font-style:normal;font-weight:400"><em>My Skills</em></h2>
@@ -191,8 +191,8 @@ return array(
 
 
 
-	<!-- wp:group {"align":"full","backgroundColor":"variant-background-primary","paddingTop":0,"paddingBottom":16} -->
-	<div class="wp-block-group alignfull has-variant-background-primary-background-color has-background pb__16" id="experiences">
+	<!-- wp:group {"align":"full","backgroundColor":"variant-background-primary","paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull has-variant-background-primary-background-color has-background pb__16 pl__10 pr__10" id="experiences">
 	<!-- wp:group {"className":"alignwide"} -->
 <div class="wp-block-group alignwide"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
 <div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block pt__16"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":3,"gridColumnEndTablet":11,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","className":"as__start as__t__start js__stretch js__t__start","paddingBottom":13} -->
@@ -389,8 +389,8 @@ return array(
 
 
 
-	<!-- wp:group {"align":"full","backgroundColor":"background-primary","paddingTop":0,"paddingBottom":16} -->
-<div class="wp-block-group alignfull has-background-primary-background-color has-background pb__16" id="testimonials"><!-- wp:group {"backgroundColor":"background-primary","className":"alignwide","layout":{"inherit":false}} -->
+	<!-- wp:group {"align":"full","backgroundColor":"background-primary","paddingTop":0,"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+<div class="wp-block-group alignfull has-background-primary-background-color has-background pb__16 pl__10 pr__10" id="testimonials"><!-- wp:group {"backgroundColor":"background-primary","className":"alignwide","layout":{"inherit":false}} -->
 <div id="testimonials" class="wp-block-group alignwide has-background-primary-background-color has-background"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
 <div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block pt__16"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":4,"gridColumnEndTablet":10,"gridColumnStartMobile":2,"gridColumnEndMobile":12,"justifyItem":"stretch","className":"as__start as__t__start js__stretch js__t__start"} -->
 <div class="wp-block-ainoblocks-grid-item col_start_d__4 col_end_d__10 col_start_t__4 col_end_t__10 col_start_m__2 col_end_m__12 justify-self__stretch no-stacking as__start as__t__start js__stretch js__t__start"><!-- wp:heading {"textAlign":"center","textColor":"font-primary","className":"test","fontSize":"text-4-xl","paddingTop":0,"paddingBottom":0} -->
@@ -519,12 +519,12 @@ return array(
 	<!-- /wp:paragraph --></div>
 	<!-- /wp:ainoblocks/grid-item --></div>
 	<!-- /wp:ainoblocks/grid-container -->
-	
+
 	<!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m","paddingTop":13} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block col-gap-m pt__13"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":5,"gridColumnStartTablet":1,"gridColumnEndTablet":5,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"borderRadius":"s"} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__5 col_start_t__1 col_end_t__5 col_start_m__1 col_end_m__13 as__start as__t__start js__start js__t__start no-stacking br-all__s"><!-- wp:group {"className":"relative img-raised","borderRadius":"xs"} -->
-	<div class="wp-block-group relative img-raised br-all__xs"><!-- wp:image {"id":21053,"sizeSlug":"full","linkDestination":"custom","className":"is-style-default","borderRadius":"xs"} -->
-	<figure class="wp-block-image size-full is-style-default br-all__xs"><a href="https://www.youtube.com/channel/UCghI7dxtX19kG4ecfuNNOfw"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/youtube-thumb-1.png" alt="" class="wp-image-21053"/></a></figure>
+	<div class="wp-block-group relative img-raised br-all__xs"><!-- wp:image {"id":20947,"sizeSlug":"large","linkDestination":"custom","style":{"border":{"radius":"20px"}},"className":"is-style-default"} -->
+	<figure class="wp-block-image size-large has-custom-border is-style-default"><a href="https://www.youtube.com/channel/UCghI7dxtX19kG4ecfuNNOfw"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/youtube-thumb-1.png" alt="" class="wp-image-20947" style="border-radius:20px"/></a></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:ainoblocks/flexbox {"justifyContentDesktop":"justify__center__d","justifyContentTablet":"justify__center__t","justifyContentMobile":"justify__center__m","alignItemsDesktop":"align-items__center__d","alignItemsTablet":"align-items__center__t","alignItemsMobile":"align-items__center__m","alignContentDesktop":"align-cont__center__d","alignContentTablet":"align-cont__center__t","alignContentMobile":"align-cont__center__m","position":"pos-bl","className":"ext-link-icon","paddingBottom":5,"paddingLeft":5} -->
@@ -547,8 +547,8 @@ return array(
 	
 	<!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":5,"gridColumnEndDesktop":9,"gridColumnStartTablet":5,"gridColumnEndTablet":9,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"marginTopTablet":0,"marginTopMobile":6} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__5 col_end_d__9 col_start_t__5 col_end_t__9 col_start_m__1 col_end_m__13 as__start as__t__start js__start js__t__start no-stacking mt_t__0 mt_m__6"><!-- wp:group {"className":"relative img-raised","borderRadius":"xs"} -->
-	<div class="wp-block-group relative img-raised br-all__xs"><!-- wp:image {"id":21051,"sizeSlug":"full","linkDestination":"custom","className":"is-style-default","borderRadius":"xs"} -->
-	<figure class="wp-block-image size-full is-style-default br-all__xs"><a href="https://www.youtube.com/channel/UCghI7dxtX19kG4ecfuNNOfw"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/youtube-thumb-1.png" alt="" class="wp-image-21051"/></a></figure>
+	<div class="wp-block-group relative img-raised br-all__xs"><!-- wp:image {"id":20947,"sizeSlug":"large","linkDestination":"custom","style":{"border":{"radius":"20px"}},"className":"is-style-default"} -->
+	<figure class="wp-block-image size-large has-custom-border is-style-default"><a href="https://www.youtube.com/channel/UCghI7dxtX19kG4ecfuNNOfw"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/youtube-thumb-1.png" alt="" class="wp-image-20947" style="border-radius:20px"/></a></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:ainoblocks/flexbox {"justifyContentDesktop":"justify__center__d","justifyContentTablet":"justify__center__t","justifyContentMobile":"justify__center__m","alignItemsDesktop":"align-items__center__d","alignItemsTablet":"align-items__center__t","alignItemsMobile":"align-items__center__m","alignContentDesktop":"align-cont__center__d","alignContentTablet":"align-cont__center__t","alignContentMobile":"align-cont__center__m","position":"pos-bl","className":"ext-link-icon","paddingBottom":5,"paddingLeft":5} -->
@@ -571,8 +571,8 @@ return array(
 	
 	<!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":9,"gridColumnEndDesktop":13,"gridColumnStartTablet":9,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"marginTopTablet":0,"marginTopMobile":6} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__9 col_end_d__13 col_start_t__9 col_end_t__13 col_start_m__1 col_end_m__13 as__start as__t__start js__start js__t__start no-stacking mt_t__0 mt_m__6"><!-- wp:group {"className":"relative img-raised","borderRadius":"xs"} -->
-	<div class="wp-block-group relative img-raised br-all__xs"><!-- wp:image {"id":20947,"sizeSlug":"large","linkDestination":"custom","className":"is-style-default","borderRadius":"xs"} -->
-	<figure class="wp-block-image size-large is-style-default br-all__xs"><a href="https://www.youtube.com/channel/UCghI7dxtX19kG4ecfuNNOfw"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/youtube-thumb-1.png" alt="" class="wp-image-20947"/></a></figure>
+	<div class="wp-block-group relative img-raised br-all__xs"><!-- wp:image {"id":20947,"sizeSlug":"large","linkDestination":"custom","style":{"border":{"radius":"20px"}},"className":"is-style-default"} -->
+	<figure class="wp-block-image size-large has-custom-border is-style-default"><a href="https://www.youtube.com/channel/UCghI7dxtX19kG4ecfuNNOfw"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/pattern-lib/pro/youtube-thumb-1.png" alt="" class="wp-image-20947" style="border-radius:20px"/></a></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:ainoblocks/flexbox {"justifyContentDesktop":"justify__center__d","justifyContentTablet":"justify__center__t","justifyContentMobile":"justify__center__m","alignItemsDesktop":"align-items__center__d","alignItemsTablet":"align-items__center__t","alignItemsMobile":"align-items__center__m","alignContentDesktop":"align-cont__center__d","alignContentTablet":"align-cont__center__t","alignContentMobile":"align-cont__center__m","position":"pos-bl","className":"ext-link-icon","paddingBottom":5,"paddingLeft":5} -->
@@ -595,8 +595,8 @@ return array(
 	<!-- /wp:ainoblocks/grid-container --></div>
 	<!-- /wp:group -->
 	
-	<!-- wp:group {"align":"full","layout":{"inherit":false},"paddingBottom":16} -->
-	<div class="wp-block-group alignfull pb__16" id="contact"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
+	<!-- wp:group {"align":"full","layout":{"inherit":false},"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull pb__16 pl__10 pr__10" id="contact"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block pt__16"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":2,"gridColumnEndDesktop":12,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"alignItem":"stretch","justifyItem":"stretch","className":"as__stretch as__t__start js__stretch js__t__start"} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__2 col_end_d__12 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 align-self__stretch justify-self__stretch no-stacking as__stretch as__t__start js__stretch js__t__start"><!-- wp:ainoblocks/card {"borderColor":"variant-border-secondary","borderRadius":"m","paddingTop":11,"paddingBottom":11,"paddingLeft":11,"paddingRight":11,"borderTopWidth":1,"borderRightWidth":1,"borderBottomWidth":1,"borderLeftWidth":1,"gradient":"gradient-tertiary"} -->
 	<div class="wp-block-ainoblocks-card shadow-none pt__11 pb__11 pl__11 pr__11 has-border-color has-variant-border-secondary-border-color has-gradient-tertiary-gradient-background has-background br-all__m" style="border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-none"} -->

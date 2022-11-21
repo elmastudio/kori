@@ -6,8 +6,8 @@
 return array(
 	'title'      => __( 'Timeline, variant' ),
 	'categories' => array( 'features' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"variant-background-primary","paddingTop":0,"paddingBottom":16} -->
-	<div class="wp-block-group alignfull has-variant-background-primary-background-color has-background pb__16" id="experiences"><!-- wp:group {"className":"alignwide"} -->
+	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"variant-background-primary","paddingTop":0,"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull has-variant-background-primary-background-color has-background pb__16 pl__10 pr__10" id="experiences"><!-- wp:group {"className":"alignwide"} -->
 	<div class="wp-block-group alignwide"><!-- wp:ainoblocks/grid-container {"paddingTop":16} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide pt__16"><div class="wp-block-ainoblocks-grid-container__inner"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":3,"gridColumnEndTablet":11,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","paddingBottom":13} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__4 col_end_d__10 col_start_t__3 col_end_t__11 col_start_m__1 col_end_m__13 align-self__start justify-self__stretch no-stacking pb__13"><!-- wp:heading {"textAlign":"center","textColor":"variant-tertiary","className":"serif","fontSize":"text-4-xl"} -->

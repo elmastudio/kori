@@ -10,8 +10,8 @@ return array(
 	<hr class="wp-block-separator alignfull is-style-wide"/>
 	<!-- /wp:separator -->
 
-	<!-- wp:group {"tagName":"section","align":"wide","paddingTop":1,"paddingBottom":14} -->
-	<section class="wp-block-group alignwide pt__1 pb__14"><!-- wp:heading {"align":"wide","fontSize":"text-xxl","paddingTop":3,"paddingBottom":10} -->
+	<!-- wp:group {"tagName":"section","align":"wide","paddingTop":1,"paddingBottom":14,"paddingLeft":10,"paddingRight":10} -->
+	<section class="wp-block-group alignwide pt__1 pb__14 pl__10 pr__10"><!-- wp:heading {"align":"wide","fontSize":"text-xxl","paddingTop":3,"paddingBottom":10} -->
 	<h2 class="alignwide has-text-xxl-font-size pt__3 pb__10" id="related-posts">Related Posts</h2>
 	<!-- /wp:heading -->
 

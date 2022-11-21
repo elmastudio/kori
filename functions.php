@@ -8,157 +8,53 @@
  * @since Kori 1.0
  */
 
+/**
+ * The theme version.
+ *
+ * @since 1.0.0
+ */
+define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+
 if ( ! function_exists( 'kori_support' ) ) :
 
-	/**
-	 * Sets up theme defaults and registers support for various WordPress features.
-	 *
-	 * @since Kori 1.0
-	 *
-	 * @return void
-	 */
-	function kori_support() {
-
-		// Add support for block styles.
-		add_theme_support( 'wp-block-styles' );
-
-		// Enqueue editor styles.
-		add_editor_style( 'assets/build/css/editor.css' );
-
-		// Add support for editor styles.
-		add_theme_support( 'editor-styles' );
-
-		// Remove core block patterns.
-		remove_theme_support( 'core-block-patterns' );
-
-	}
-	endif; // kori_support
-	add_action( 'after_setup_theme', 'kori_support' );
+/**
+ * Sets up theme defaults and registers support for various WordPress features.
+ *
+ * @since Kori 1.0
+ *
+ * @return void
+ */
+function kori_support() {
 
 
-if ( ! function_exists( 'kori_styles' ) ) :
+	// Enqueue editor styles.
+	add_editor_style( 'assets/build/css/editor.css' );
 
-	/**
-	 * Enqueue styles.
-	 *
-	 * @since Kori 1.0
-	 *
-	 * @return void
-	 */
-	function kori_styles() {
-		// Register theme stylesheet.
-		$theme_version = wp_get_theme()->get( 'Version' );
+	// Remove core block patterns.
+	remove_theme_support( 'core-block-patterns' );
 
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
-		wp_register_style(
-			'kori-style',
-			get_template_directory_uri() . '//assets/build/css/main.css',
-			array(),
-			$version_string
-		);
+}
+endif; // kori_support
+add_action( 'after_setup_theme', 'kori_support' );
 
-		// Add styles inline.
-		wp_add_inline_style( 'kori-style', kori_get_font_face_styles() );
 
-		// Enqueue theme stylesheet.
-		wp_enqueue_style( 'kori-style' );
+/**
+ * Enqueue the CSS files.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function kori_styles() {
 
-	}
-
-endif;
-
+	wp_enqueue_style(
+		'kori-style',
+		get_template_directory_uri() . '/assets/build/css/main.css',
+		[],
+		THEME_VERSION
+	);
+}
 add_action( 'wp_enqueue_scripts', 'kori_styles' );
-
-if ( ! function_exists( 'kori_editor_styles' ) ) :
-
-	/**
-	 * Enqueue editor styles.
-	 *
-	 * @since Kori 1.0
-	 *
-	 * @return void
-	 */
-	function kori_editor_styles() {
-
-		// Add styles inline.
-		wp_add_inline_style( 'wp-block-library', kori_get_font_face_styles() );
-
-	}
-
-endif;
-
-add_action( 'admin_init', 'kori_editor_styles' );
-
-if ( ! function_exists( 'kori_get_font_face_styles' ) ) :
-
-	/**
-	 * Get font face styles.
-	 * Called by functions kori_styles() and kori_inline_editor_styles() above.
-	 *
-	 * @since Kori 1.0
-	 *
-	 * @return string
-	 */
-	function kori_get_font_face_styles() {
-
-		return "
-
-		@font-face{
-			font-family: 'Urbanist';
-			font-weight: 200 900;
-			font-style: normal;
-			font-stretch: normal;
-			font-display: swap;
-			src: url('" . get_theme_file_uri( 'assets/fonts/Urbanist.woff2' ) . "') format('woff2');
-		}
-
-		@font-face{
-			font-family: 'Urbanist';
-			font-weight: 200 900;
-			font-style: italic;
-			font-stretch: normal;
-			font-display: swap;
-			src: url('" . get_theme_file_uri( 'assets/fonts/Urbanist-Italic.woff2' ) . "') format('woff2');
-		}
-
-		@font-face{
-			font-family: 'Fraunces';
-			font-weight: 200 900;
-			font-style: italic;
-			font-style: normal;
-			font-stretch: normal;
-			font-display: swap;
-			src: url('" . get_theme_file_uri( 'assets/fonts/Fraunces-Italic.woff2' ) . "') format('woff2');
-		}
-		";
-
-	}
-
-endif;
-
-if ( ! function_exists( 'kori_preload_webfonts' ) ) :
-
-	/**
-	 * Preloads the main web font to improve performance.
-	 *
-	 * Only the main web font (font-style: normal) is preloaded here since that font is always relevant (it is used
-	 * on every heading, for example). The other font is only needed if there is any applicable content in italic style,
-	 * and therefore preloading it would in most cases regress performance when that font would otherwise not be loaded
-	 * at all.
-	 *
-	 * @since Kori 1.0
-	 *
-	 * @return void
-	 */
-	function kori_preload_webfonts() {
-		?>
-		<link rel="preload" href="<?php echo esc_url( get_theme_file_uri( 'assets/fonts/Urbanist.woff2' ) ); ?>" as="font" type="font/woff2" crossorigin>
-		<?php
-	}
-
-endif;
-
-add_action( 'wp_head', 'kori_preload_webfonts' );
 
 /**
  * Registers pattern categories.
