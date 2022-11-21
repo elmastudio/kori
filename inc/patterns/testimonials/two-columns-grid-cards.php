@@ -6,8 +6,8 @@
 return array(
 	'title'      => __( 'Two Columns Grid on Cards' ),
 	'categories' => array( 'testimonials' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"background-primary","paddingTop":0,"paddingBottom":16} -->
-	<div class="wp-block-group alignfull has-background-primary-background-color has-background pb__16" id="testimonials"><!-- wp:group {"backgroundColor":"background-primary","className":"alignwide","layout":{"inherit":false}} -->
+	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"background-primary","paddingTop":0,"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull has-background-primary-background-color has-background pb__16 pl__10 pr__10" id="testimonials"><!-- wp:group {"backgroundColor":"background-primary","className":"alignwide","layout":{"inherit":false}} -->
 	<div id="testimonials" class="wp-block-group alignwide has-background-primary-background-color has-background"><!-- wp:ainoblocks/grid-container {"paddingTop":16} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide pt__16"><div class="wp-block-ainoblocks-grid-container__inner"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":4,"gridColumnEndDesktop":10,"gridColumnStartTablet":4,"gridColumnEndTablet":10,"gridColumnStartMobile":2,"gridColumnEndMobile":12,"justifyItem":"stretch"} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__4 col_end_d__10 col_start_t__4 col_end_t__10 col_start_m__2 col_end_m__12 align-self__start justify-self__stretch no-stacking"><!-- wp:heading {"textAlign":"center","textColor":"font-primary","className":"test","fontSize":"text-4-xl","paddingTop":0,"paddingBottom":0} -->

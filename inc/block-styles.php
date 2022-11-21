@@ -57,6 +57,15 @@ if ( function_exists( 'register_block_style' ) ) {
 				'label' => esc_html__( 'Large Raised', 'aino' ),
 			)
 		);
+
+		// Raised buttons
+		register_block_style(
+			'ainoblocks/button',
+			array(
+				'name'  => 'raised',
+				'label' => esc_html__( 'Raised', 'aino' ),
+			)
+		);
 	}
 	add_action( 'init', 'theme_register_block_styles' );
 }

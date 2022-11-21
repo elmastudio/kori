@@ -1,12 +1,12 @@
 === Kori ===
 Contributors: elmastudio
-Tags:
-Requires at least: 5.9
-Tested up to: WordPress 6.0
+Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, theme-options, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing, template-editing
+Requires at least: 6.1
+Tested up to: WordPress 6.1.1
 Requires PHP: 7.0
-Stable tag: 1.1.3
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Stable tag: 1.2.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Kori is a full site editing one page block theme.
 
@@ -39,6 +39,26 @@ Kori WordPress Theme bundles the following third-party resources:
 * Screenshot image #1, (c) Elmastudio Ltd., CC0 1.0 Universal (CC0 1.0) license
 * TGM-Plugin-Activation, (c) Thomas Griffin, License: GPLv2 or later, http://tgmpluginactivation.com
 
+Work Sans (font)
+Copyright 2019 The Work Sans Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/weiweihuanghuang/Work-Sans
+
+Inter (font)
+Copyright 2020 The Inter Project Authors
+License: SIL Open Font License, 1.1, http://scripts.sil.org/OFL
+Source: (https://github.com/rsms/inter)
+
+Libre Franklin (font)
+Copyright 2020 The LibreFranklin Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/impallari/Libre-Franklin
+
+Ibarra Real Nova (font)
+Copyright 2007 The Ibarra Real Nova Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/googlefonts/ibarrareal
+
 Fraunces (font)
 Copyright 2018 The Fraunces Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
@@ -51,9 +71,11 @@ Source: https://github.com/coreyhu/Urbanist
 
 == Changelog ==
 
-= 1.1.3 =
-Release date: August 17, 2022
-* Fix: Patterns.
+= 1.2.0 =
+Release date: November 20, 2022
+
+* Fix: Patterns for WordPress 6.1.
+* Enhance: theme.json, add new fonts, spacing and fluid typography.
 * Enhance: Header and Footer Template Parts.
 
 = 1.1.2 =

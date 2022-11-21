@@ -1,7 +1,6 @@
 {
-	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
-	"version": 2,
 	"settings": {
+		"useRootPaddingAwareAlignments": true,
 		"appearanceTools": true,
 		"border": {
 			"color": true,
@@ -11,6 +10,101 @@
 		},
 		"spacing": {
 			"blockGap": true,
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"size": "clamp(0.125rem, 0.0746rem + 0.2193vw, 0.25rem)",
+					"slug": "1",
+					"name": "4px"
+				},
+				{
+					"size": "clamp(0.25rem, 0.1491rem + 0.4386vw, 0.5rem)",
+					"slug": "2",
+					"name": "8px"
+				},
+				{
+					"size": "clamp(0.375rem, 0.2237rem + 0.6579vw, 0.75rem)",
+					"slug": "3",
+					"name": "12px"
+				},
+				{
+					"size": "clamp(0.5rem, 0.2982rem + 0.8772vw, 1rem)",
+					"slug": "4",
+					"name": "16px"
+				},
+				{
+					"size": "clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem)",
+					"slug": "5",
+					"name": "20px"
+				},
+				{
+					"size": "clamp(1rem, 0.7982rem + 0.8772vw, 1.5rem)",
+					"slug": "6",
+					"name": "24px"
+				},
+				{
+					"size": "cclamp(1rem, 0.5965rem + 1.7544vw, 2rem)",
+					"slug": "7",
+					"name": "32px"
+				},
+				{
+					"size": "clamp(1.25rem, 0.7456rem + 2.193vw, 2.5rem)",
+					"slug": "8",
+					"name": "40px"
+				},
+				{
+					"size": "clamp(1.5rem, 0.8947rem + 2.6316vw, 3rem)",
+					"slug": "9",
+					"name": "48px"
+				},
+				{
+					"size": "clamp(2rem, 1.193rem + 3.5088vw, 4rem)",
+					"slug": "10",
+					"name": "64px"
+				},
+				{
+					"size": "clamp(2.5rem, 1.4912rem + 4.386vw, 5rem)",
+					"slug": "11",
+					"name": "80px"
+				},
+				{
+					"size": "clamp(3rem, 1.7895rem + 5.2632vw, 6rem)",
+					"slug": "12",
+					"name": "96px"
+				},
+				{
+					"size": "clamp(4rem, 2.5877rem + 6.1404vw, 7.5rem)",
+					"slug": "13",
+					"name": "120px"
+				},
+				{
+					"size": "clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem)",
+					"slug": "14",
+					"name": "144px"
+				},
+				{
+					"size": "clamp(6rem, 3.9825rem + 8.7719vw, 11rem)",
+					"slug": "15",
+					"name": "176px"
+				},
+				{
+					"size": "clamp(7.5rem, 5.2807rem + 9.6491vw, 13rem)",
+					"slug": "16",
+					"name": "208px"
+				},
+				{
+					"size": "clamp(9rem, 6.3772rem + 11.4035vw, 15.5rem)",
+					"slug": "17",
+					"name": "248px"
+				},
+				{
+					"size": "clamp(11rem, 8.1754rem + 12.2807vw, 18rem)",
+					"slug": "18",
+					"name": "288px"
+				}
+			],
 			"units": ["px", "em", "rem", "%", "vh", "vw"]
 		},
 		"color": {
@@ -213,16 +307,105 @@
 			"wideSize": "112.5rem"
 		},
 		"typography": {
-			"fontFamilies": [
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [{
+					"fontFamily": "\"Work Sans\", sans-serif",
+					"name": "Work Sans",
+					"slug": "work-sans",
+					"fontFace": [{
+						"fontFamily": "Work Sans",
+						"fontWeight": "100 900",
+						"fontStyle": "normal",
+						"fontStretch": "normal",
+						"src": [
+							"file:./assets/fonts/WorkSans-VariableFont_wght.woff2"
+						]
+					}]
+				},
+				{
+					"fontFamily": "\"Inter\", sans-serif",
+					"slug": "inter",
+					"name": "Inter",
+					"fontFace": [{
+						"fontFamily": "Inter",
+						"fontWeight": "200 900",
+						"fontStyle": "normal",
+						"fontStretch": "normal",
+						"src": [
+							"file:./assets/fonts/Inter.woff2"
+						]
+					}]
+				},
+				{
+					"fontFamily": "\"Libre Franklin\", sans-serif",
+					"slug": "libre-franklin",
+					"name": "Libre Franklin",
+					"fontFace": [{
+						"fontFamily": "Libre Franklin",
+						"fontWeight": "200 900",
+						"fontStyle": "normal",
+						"fontStretch": "normal",
+						"src": [
+							"file:./assets/fonts/LibreFranklin-VariableFont.woff2"
+						]
+					}]
+				},
 				{
 					"fontFamily": "\"Urbanist\", sans-serif",
 					"slug": "urbanist",
-					"name": "Urbanist"
+					"name": "Urbanist",
+					"fontFace": [{
+						"fontFamily": "Urbanist",
+						"fontWeight": "200 900",
+						"fontStyle": "normal",
+						"fontStretch": "normal",
+						"src": [
+							"file:./assets/fonts/Urbanist-VariableFont.woff2"
+						]
+					}]
 				},
 				{
 					"fontFamily": "\"Fraunces\", serif",
 					"slug": "fraunces",
-					"name": "Fraunces"
+					"name": "Fraunces",
+					"fontFace": [{
+						"fontFamily": "Fraunces",
+						"fontWeight": "100 900",
+						"fontStyle": "normal",
+						"fontStretch": "normal",
+						"src": [
+							"file:./assets/fonts/Fraunces-VariableFont.woff2"
+						]
+					}]
+				},
+				{
+					"fontFamily": "\"Fraunces\", serif",
+					"slug": "fraunces",
+					"name": "Fraunces",
+					"fontFace": [{
+						"fontFamily": "Fraunces",
+						"fontWeight": "100 900",
+						"fontStyle": "italic",
+						"fontStretch": "normal",
+						"src": [
+							"file:./assets/fonts/Fraunces-Italic-VariableFont.woff2"
+						]
+					}]
+				},
+				{
+					"fontFamily": "\"Ibarra Real Nova\", serif",
+					"slug": "ibarra-real-nova",
+					"name": "Ibarra Real Nova",
+					"fontFace": [{
+						"fontFamily": "Ibarra Real Nova",
+						"fontWeight": "400 700",
+						"fontStyle": "normal",
+						"fontStretch": "normal",
+						"src": [
+							"file:./assets/fonts/IbarraRealNova-VariableFont.woff2"
+						]
+					}]
 				},
 				{
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
@@ -239,76 +422,121 @@
 				{
 					"name": "3XS",
 					"size": "0.75rem",
+					"fluid": false,
 					"slug": "text-xxxs"
 				},
 				{
 					"name": "2XS",
 					"size": "0.875rem",
+					"fluid": false,
 					"slug": "text-xxs"
 				},
 				{
 					"name": "XS",
 					"size": "1rem",
+					"fluid": false,
 					"slug": "text-xs"
 				},
 				{
 					"name": "S",
 					"size": "1.125rem",
+					"fluid": false,
 					"slug": "text-s"
 				},
 				{
 					"name": "M",
-					"size": "clamp(1.125rem, 1.08333rem + 0.208333vw, 1.25rem)",
+					"size": "1.25rem",
+					"fluid": false,
 					"slug": "text-m"
 				},
 				{
 					"name": "L",
-					"size": "clamp(1.25rem, 1.16667rem + 0.416667vw, 1.5rem)",
+					"size": "1.5rem",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					},
 					"slug": "text-l"
 				},
 				{
 					"name": "XL",
-					"size": "clamp(1.5rem, 1.375rem + 0.625vw, 1.875rem)",
+					"size": "1.875rem",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "1.875rem"
+					},
 					"slug": "text-xl"
 				},
 				{
 					"name": "XXL",
-					"size": "clamp(1.875rem, 1.75rem + 0.625vw, 2.25rem)",
+					"size": "2.25rem",
+					"fluid": {
+						"min": "1.875rem",
+						"max": "2.25rem"
+					},
 					"slug": "text-xxl"
 				},
 				{
 					"name": "3XL",
-					"size": "clamp(2.25rem, 2rem + 1.25vw, 3rem)",
+					"size": "3rem",
+					"fluid": {
+						"min": "2.25rem",
+						"max": "3rem"
+					},
 					"slug": "text-xxxl"
 				},
 				{
 					"name": "4XL",
-					"size": "clamp(2.25rem, 1.75rem + 2.5vw, 3.75rem)",
+					"size": "3.75rem",
+					"fluid": {
+						"min": "2.25rem",
+						"max": "3.75rem"
+					},
 					"slug": "text-4-xl"
 				},
 				{
 					"name": "5XL",
-					"size": "clamp(3rem, 2.5rem + 2.5vw, 4.5rem)",
+					"size": "4.5rem",
+					"fluid": {
+						"min": "2.25rem",
+						"max": "4.5rem"
+					},
 					"slug": "text-5-xl"
 				},
 				{
 					"name": "6XL",
-					"size": "clamp(3.75rem, 3rem + 3.75vw, 6rem)",
+					"size": "6rem",
+					"fluid": {
+						"min": "3rem",
+						"max": "6rem"
+					},
 					"slug": "text-6-xl"
 				},
 				{
 					"name": "7XL",
-					"size": "clamp(4.5rem, 3.333rem + 5.8333vw, 8rem)",
+					"size": "8rem",
+					"fluid": {
+						"min": "3.75rem",
+						"max": "8rem"
+					},
 					"slug": "text-7-xl"
 				},
 				{
 					"name": "8XL",
-					"size": "clamp(6rem, 4rem + 10vw, 12rem)",
+					"size": "12rem",
+					"fluid": {
+						"min": "4.5rem",
+						"max": "12rem"
+					},
 					"slug": "text-8-xl"
 				},
 				{
 					"name": "9XL",
-					"size": "clamp(6rem, 1.8333rem + 20.8333vw, 18.5rem)",
+					"size": "18.5rem",
+					"fluid": {
+						"min": "6rem",
+						"max": "18.5rem"
+					},
 					"slug": "text-9-xl"
 				}
 			],
@@ -371,7 +599,18 @@
 	},
 	"styles": {
 		"spacing": {
-			"blockGap": "0.0rem"
+			"blockGap": "0.0rem",
+			"padding": {
+				"top": "0px",
+				"bottom": "0px",
+				"right": "var(--wp--preset--spacing--8)",
+				"left": "var(--wp--preset--spacing--8)"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--custom--body--typography--font-family)",
+			"lineHeight": "var(--wp--custom--line-height--body)",
+			"fontWeight": "400"
 		},
 		"color": {
 			"background": "var(--wp--custom--color--main-background)",
@@ -427,12 +666,15 @@
 				}
 			}
 		},
-		"typography": {
-			"fontFamily": "var(--wp--custom--body--typography--font-family)",
-			"lineHeight": "var(--wp--custom--line-height--body)",
-			"fontWeight": "400"
-		},
 		"blocks": {
+			"core/post-content": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-m)"
+				},
+				"spacing": {
+					"blockGap": "var(--wp--preset--spacing--6)"
+				}
+			},
 			"core/heading": {
 				"typography": {
 					"fontFamily": "var(--wp--custom--heading--typography--font-family)",
@@ -450,7 +692,8 @@
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var(--wp--custom--serif--typography--font-family)",
-					"fontWeight": "400"
+					"fontWeight": "400",
+					"fontStyle": "italic"
 				}
 			},
 			"core/button": {
@@ -529,7 +772,10 @@
 			"area": "footer"
 		},
 		{
-			"name": "single-related-posts"
+			"name": "single-related-posts",
+			"area": "uncategorized"
 		}
-	]
+	],
+	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
+	"version": 2
 }

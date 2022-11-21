@@ -6,8 +6,8 @@
 return array(
 	'title'      => __( 'Card with text and button' ),
 	'categories' => array( 'contacts' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"background-secondary","layout":{"inherit":false},"paddingBottom":16} -->
-	<div class="wp-block-group alignfull has-background-secondary-background-color has-background pb__16" id="contact"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
+	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"background-secondary","layout":{"inherit":false},"paddingBottom":16,"paddingLeft":10,"paddingRight":10} -->
+	<div class="wp-block-group alignfull has-background-secondary-background-color has-background pb__16 pl__10 pr__10" id="contact"><!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":16} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block pt__16"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":2,"gridColumnEndDesktop":12,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"alignItem":"stretch","justifyItem":"stretch","className":"as__stretch as__t__start js__stretch js__t__start"} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__2 col_end_d__12 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 align-self__stretch justify-self__stretch no-stacking as__stretch as__t__start js__stretch js__t__start"><!-- wp:ainoblocks/card {"borderColor":"border-secondary","borderRadius":"m","paddingTop":11,"paddingBottom":11,"paddingLeft":11,"paddingRight":11,"borderTopWidth":1,"borderRightWidth":1,"borderBottomWidth":1,"borderLeftWidth":1,"gradient":"gradient-primary"} -->
 	<div class="wp-block-ainoblocks-card shadow-none pt__11 pb__11 pl__11 pr__11 has-border-color has-border-secondary-border-color has-gradient-primary-gradient-background has-background br-all__m" style="border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-none"} -->
